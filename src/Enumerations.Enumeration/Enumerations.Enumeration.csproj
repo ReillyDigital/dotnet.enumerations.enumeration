@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Company>Reilly Digital</Company>
+		<Description>An enumeration library for .NET.</Description>
+		<EnableSourceLink>true</EnableSourceLink>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>12.0</LangVersion>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+		<Nullable>enable</Nullable>
+		<PackageId>ReillyDigital.Enumerations.Enumeration</PackageId>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageProjectUrl>https://gitlab.com/reilly-digital/dotnet/enumerations.enumeration</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageTags>csharp, c#, enumeration</PackageTags>
+		<PackageVersion>1.0.0</PackageVersion>
+		<ProjectGuid>4280CD92-E8F8-4C0D-8D5B-BF04E86A0A84</ProjectGuid>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://gitlab.com/reilly-digital/dotnet/enumerations.enumeration.git</RepositoryUrl>
+		<RootNamespace>ReillyDigital.Enumerations</RootNamespace>
+		<Summary>An enumeration library for .NET.</Summary>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<TargetFramework>net8.0</TargetFramework>
+		<Title>ReillyDigital.Enumerations.Enumeration - An enumeration library for .NET.</Title>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+	<ItemGroup Label="File References">
+		<None Include="README.md">
+			<Pack>True</Pack>
+			<PackagePath>/</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>

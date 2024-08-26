@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerations.Enumeration", "Enumerations.Enumeration/Enumerations.Enumeration.csproj", "{28A95CF4-AE90-40F4-84AD-23F5607BB878}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerations.Enumeration.Sample", "Enumerations.Enumeration.Sample/Enumerations.Enumeration.Sample.csproj", "{F83A490D-5D70-47B4-B22B-19EC73E88EB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A95CF4-AE90-40F4-84AD-23F5607BB878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A95CF4-AE90-40F4-84AD-23F5607BB878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A95CF4-AE90-40F4-84AD-23F5607BB878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A95CF4-AE90-40F4-84AD-23F5607BB878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83A490D-5D70-47B4-B22B-19EC73E88EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83A490D-5D70-47B4-B22B-19EC73E88EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83A490D-5D70-47B4-B22B-19EC73E88EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83A490D-5D70-47B4-B22B-19EC73E88EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCEA7A5F-F261-4DD4-AB22-EE051B9292AB}
+	EndGlobalSection
+EndGlobal

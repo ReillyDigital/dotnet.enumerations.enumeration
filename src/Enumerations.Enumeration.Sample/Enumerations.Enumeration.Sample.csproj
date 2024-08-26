@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LanguageVersion>12.0</LanguageVersion>
+		<Nullable>enable</Nullable>
+		<OutputType>Exe</OutputType>
+		<ProjectGuid>1338C227-704E-4AAC-B186-78EFF281E3EB</ProjectGuid>
+		<RootNamespace>ReillyDigital.Enumerations.Enumeration.Sample</RootNamespace>
+		<TargetFramework>net8.0</TargetFramework>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+	<ItemGroup Label="Project References">
+		<ProjectReference Include="../Enumerations.Enumeration/Enumerations.Enumeration.csproj">
+			<Name>ReillyDigital.Enumerations.Enumeration</Name>
+			<Project>{4280CD92-E8F8-4C0D-8D5B-BF04E86A0A84}</Project>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup Label="Global Usings">
+		<Using Include="ReillyDigital.Enumerations" />
+	</ItemGroup>
+</Project>
