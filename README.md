@@ -88,7 +88,7 @@ handler();
 
 Parse an enumeration item:
 ```csharp
-var font = AbsoluteColor.Black;
+Color font = AbsoluteColor.Black;
 var configuredFontName = "SecondaryFont";
 if (
 	Enumeration<int>
