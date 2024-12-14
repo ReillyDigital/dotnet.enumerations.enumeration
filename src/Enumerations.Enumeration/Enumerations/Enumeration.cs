@@ -100,13 +100,15 @@ public abstract record Enumeration<T>
 		value = default!;
 		var maybe =
 			typeof(TEnumeration)
-				.GetProperty(name, BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly)?
-				.GetValue(null);
+				.GetProperties(BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly)
+				.Where((propertyInfo) => propertyInfo.PropertyType.IsAssignableTo(typeof(TItem)))
+				.Select(propertyInfo => (TItem)propertyInfo.GetValue(null)!)
+				.FirstOrDefault((item) => item.Name == name);
 		if (maybe is null)
 		{
 			return false;
 		}
-		value = (TItem)maybe;
+		value = maybe;
 		return true;
 	}
 

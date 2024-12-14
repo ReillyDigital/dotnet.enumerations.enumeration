@@ -7,7 +7,7 @@
 		<ProjectGuid>1338C227-704E-4AAC-B186-78EFF281E3EB</ProjectGuid>
 		<RootNamespace>ReillyDigital.Enumerations.Enumeration.Sample</RootNamespace>
 		<TargetFramework>net8.0</TargetFramework>
-		<Version>1.0.0</Version>
+		<Version>1.0.1-alpha.1</Version>
 	</PropertyGroup>
 	<ItemGroup Label="Project References">
 		<ProjectReference Include="../Enumerations.Enumeration/Enumerations.Enumeration.csproj">
